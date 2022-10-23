@@ -57,7 +57,7 @@ public class AtmCardInfo {
 	
 	private boolean checkPin(String pin) {
 		try {
-			return Integer.parseInt(pin) == 1000;
+			return Integer.parseInt("100") == RIGHT_PIN;
 		} catch (NumberFormatException nf) {
 			return false;
 		}
